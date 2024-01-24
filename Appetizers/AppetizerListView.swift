@@ -9,30 +9,28 @@ import SwiftUI
 
 struct AppetizerListView: View {
 
-    @State private var appetizers: [Appetizer] = []
+    @StateObject var viewModel = AppetizerListViewModel()
 
     var body: some View {
-        NavigationStack {
-            List(appetizers) { appetizer in
-                AppetizerListCell(appetizer: appetizer)
-            }
-            .navigationTitle("Appetizer")
-        }
-        .onAppear(){
-            getAppetizers()
-        }
-    }
-
-    func getAppetizers() {
-        NetworkManager.shared.getAppetizers { result in
-            DispatchQueue.main.async {
-                switch result {
-                case .success(let appetizer):
-                    self.appetizers = appetizer
-                case .failure(let error):
-                    print(error.localizedDescription)
+        ZStack{
+            NavigationStack {
+                List(viewModel.appetizers) { appetizer in
+                    AppetizerListCell(appetizer: appetizer)
                 }
+                .navigationTitle("Appetizer")
             }
+            .onAppear() {
+                viewModel.getAppetizers()
+            }
+            
+            if viewModel.isLoading{
+                LoadingView()
+            }
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
 }

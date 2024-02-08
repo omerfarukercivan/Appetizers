@@ -16,6 +16,8 @@
 		AE0834F12B5EB6C8008F0B04 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0834F02B5EB6C8008F0B04 /* OrderView.swift */; };
 		AE0834F32B5EC01C008F0B04 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0834F22B5EC01C008F0B04 /* Appetizer.swift */; };
 		AE0834F52B5EC54D008F0B04 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0834F42B5EC54D008F0B04 /* AppetizerListCell.swift */; };
+		AE0F878E2B74F0E000B9680E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F878D2B74F0E000B9680E /* EmptyState.swift */; };
+		AE0F87902B74FC8100B9680E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F878F2B74FC8100B9680E /* Order.swift */; };
 		AE1D23C42B6261F300DFA693 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23C32B6261F300DFA693 /* RemoteImage.swift */; };
 		AE1D23D22B6280E200DFA693 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23D12B6280E200DFA693 /* AppetizerDetailView.swift */; };
 		AE1D23D52B62D38700DFA693 /* AppetizerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23D42B62D38700DFA693 /* AppetizerButton.swift */; };
@@ -40,6 +42,8 @@
 		AE0834F02B5EB6C8008F0B04 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		AE0834F22B5EC01C008F0B04 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		AE0834F42B5EC54D008F0B04 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		AE0F878D2B74F0E000B9680E /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		AE0F878F2B74FC8100B9680E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		AE1D23C32B6261F300DFA693 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		AE1D23D12B6280E200DFA693 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		AE1D23D42B62D38700DFA693 /* AppetizerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerButton.swift; sourceTree = "<group>"; };
@@ -102,6 +106,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AE0F878C2B74F0CD00B9680E /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F878D2B74F0E000B9680E /* EmptyState.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
 		AE1D23C52B62678E00DFA693 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 			children = (
 				AE0834F22B5EC01C008F0B04 /* Appetizer.swift */,
 				AE29139A2B726B9E00EF2582 /* User.swift */,
+				AE0F878F2B74FC8100B9680E /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +191,7 @@
 		AE1D23CD2B62686000DFA693 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AE0F878C2B74F0CD00B9680E /* Empty States */,
 				AE1D23D32B62D37B00DFA693 /* Button */,
 				AE1D23D02B62687200DFA693 /* Image */,
 				AE1D23CF2B62686D00DFA693 /* Cells */,
@@ -299,6 +313,7 @@
 			files = (
 				AE0834F32B5EC01C008F0B04 /* Appetizer.swift in Sources */,
 				AE0834F52B5EC54D008F0B04 /* AppetizerListCell.swift in Sources */,
+				AE0F87902B74FC8100B9680E /* Order.swift in Sources */,
 				AE0834EF2B5EB6BF008F0B04 /* AccountView.swift in Sources */,
 				AE384A162B63AA0900284EAA /* String+Ext.swift in Sources */,
 				AE1D23C42B6261F300DFA693 /* RemoteImage.swift in Sources */,
@@ -311,6 +326,7 @@
 				AE0834DF2B5EB075008F0B04 /* AppetizersApp.swift in Sources */,
 				AE0834ED2B5EB6B1008F0B04 /* AppetizerListView.swift in Sources */,
 				AEFF4E872B6158C400581D1A /* Alert.swift in Sources */,
+				AE0F878E2B74F0E000B9680E /* EmptyState.swift in Sources */,
 				AE29139B2B726B9E00EF2582 /* User.swift in Sources */,
 				AE1D23D52B62D38700DFA693 /* AppetizerButton.swift in Sources */,
 				AE0834F12B5EB6C8008F0B04 /* OrderView.swift in Sources */,

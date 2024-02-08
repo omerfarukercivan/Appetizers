@@ -20,6 +20,7 @@
 		AE1D23D22B6280E200DFA693 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23D12B6280E200DFA693 /* AppetizerDetailView.swift */; };
 		AE1D23D52B62D38700DFA693 /* AppetizerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23D42B62D38700DFA693 /* AppetizerButton.swift */; };
 		AE1D23D82B62D48F00DFA693 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D23D72B62D48F00DFA693 /* XDismissButton.swift */; };
+		AE29139B2B726B9E00EF2582 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE29139A2B726B9E00EF2582 /* User.swift */; };
 		AE384A132B63A09400284EAA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE384A122B63A09400284EAA /* AccountViewModel.swift */; };
 		AE384A162B63AA0900284EAA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE384A152B63AA0900284EAA /* String+Ext.swift */; };
 		AE6F791B2B5FD7DD00A78492 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F791A2B5FD7DD00A78492 /* NetworkManager.swift */; };
@@ -43,6 +44,7 @@
 		AE1D23D12B6280E200DFA693 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		AE1D23D42B62D38700DFA693 /* AppetizerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerButton.swift; sourceTree = "<group>"; };
 		AE1D23D72B62D48F00DFA693 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		AE29139A2B726B9E00EF2582 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AE384A122B63A09400284EAA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		AE384A152B63AA0900284EAA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		AE6F791A2B5FD7DD00A78492 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				AE0834F22B5EC01C008F0B04 /* Appetizer.swift */,
+				AE29139A2B726B9E00EF2582 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				AE0834DF2B5EB075008F0B04 /* AppetizersApp.swift in Sources */,
 				AE0834ED2B5EB6B1008F0B04 /* AppetizerListView.swift in Sources */,
 				AEFF4E872B6158C400581D1A /* Alert.swift in Sources */,
+				AE29139B2B726B9E00EF2582 /* User.swift in Sources */,
 				AE1D23D52B62D38700DFA693 /* AppetizerButton.swift in Sources */,
 				AE0834F12B5EB6C8008F0B04 /* OrderView.swift in Sources */,
 				AE1D23D82B62D48F00DFA693 /* XDismissButton.swift in Sources */,
